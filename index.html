@@ -1,79 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biniyam Fenta | Data Analyst</title>
-    <link rel="stylesheet" href="styles.css">
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Biniam Fenta (Zeraphael) — Data Analyst</title>
+  <meta name="description" content="Portfolio of Biniam Fenta (Zeraphael) — Entry‑Level Data Analyst specializing in SQL, Python, and Power BI for healthcare and business data." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header Section -->
-    <header>
-        <h1>Biniyam Fenta</h1>
-        <p>Data Analyst | Python | SQL | Power Bi | Excel</p>
-        <img src="">
-    </header>
+  <!-- ===== Header / Nav ===== -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#">Zeraphael</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>My Projects</h2>
-        
-        <!-- Project 1 -->
-        <div class="project-card">
-            <h3>Project 1: Chronic Diseases Indicators(US)</h3>
-            <img src="https://i.postimg.cc/jdR3rBnh/chronic-diseases-indicators-data-analysis-in-usa.jpg">
-            <p><strong>Tools:</strong> Excel, Power Bi</p>
-            <p><strong>"Analyzed the prevalence and potential causes of chronic diseases across different U.S. states, segmented by age, gender, race, and education level."</strong></p>
-            <div class="project-links">
-                <a href="https://github.com/Zeraphael/Chronic_disease_indicators" target="_blank"><i class="fab fa-github"></i> Code</a>
-                <a href="https://public.tableau.com/your-dashboard" target="_blank"><i class="fas fa-chart-bar"></i> Dashboard</a>
-            </div>
+  <!-- ===== Hero ===== -->
+  <section class="hero container">
+    <div class="hero-text">
+      <h1>Hi, I’m <span class="accent">Biniam Fenta</span></h1>
+      <p class="tagline">Entry‑Level Data Analyst • SQL · Python · Power BI · Excel</p>
+      <p class="sub">I turn messy healthcare and business data into clear, actionable insights. Based in Addis Ababa, Ethiopia.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://github.com/Zeraphael" target="_blank" rel="noopener">View GitHub</a>
+        <a class="btn" href="#projects">See Projects</a>
+        <!-- Replace the resume link below when ready -->
+        <a class="btn ghost" href="resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <ul class="quick-specs">
+        <li><strong>Focus:</strong> Healthcare, Public Health, Business Ops</li>
+        <li><strong>Strengths:</strong> Cleaning, Visualization, Dashboards</li>
+        <li><strong>Tools:</strong> SQL, Python, Power BI, Excel, Tableau</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section id="projects" class="section container">
+    <div class="section-head">
+      <h2>Featured Projects</h2>
+      <p class="section-sub">A few highlights that show how I approach data cleaning, analysis, and storytelling.</p>
+    </div>
+
+    <div class="grid">
+      <!-- Project 1 -->
+      <article class="card">
+        <div class="card-body">
+          <h3>Hospital Data Cleaning & Dashboard</h3>
+          <p>Cleaned raw hospital datasets and designed an interactive Power BI dashboard to support operational decisions.</p>
+          <ul class="meta">
+            <li>Python, Power BI</li>
+            <li>Data Cleaning, DAX Measures</li>
+          </ul>
         </div>
-
-        <!-- Project 2 -->
-        <div class="project-card">
-            <h3>Project 2: Students Mental Health Analysis</h3>
-            <img src="https://i.postimg.cc/m2czhg9Z/students-mental-health-data-analysis-project-in-SQL.jpg" >
-            <p><strong>Tools:</strong>  SQL</p>
-            <p>"Developed interactive SQL queries to analyze correlations between students' mental health and key demographic and academic factors, including gender, age, course, CGPA, and marital status."</p>
-            <div class="project-links">
-                <a href="https://github.com/Zeraphael/Students_mental_health" target="_blank"><i class="fab fa-github"></i> Code</a>
-                <a href="https://app.github.com/Zeraphael\Students_mental_health\" target="_blank"><i class="fas fa-chart-line"></i> Report</a>
-            </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I'm a Motivated and detail-oriented aspiring Data Analyst with strong analytical, programming, and problem-solving skills. Currently enhancing knowledge in data science, Python programming, and SQL. Seeking an entry-level Data Analyst position to apply and expand on my skills in data analysis, statistical modeling, and data-driven decision-making.. </p>
-        <p><strong>Skills:</strong> 
-            <strong>Programming Languages</strong>: Python (Pandas, NumPy, Matplotlib, Seaborn), SQL<br>
-            
-           Data Analysis: Data cleaning, data visualization, exploratory data analysis (EDA)<br>
-            
-            Data Tools: Jupyter Notebooks, Excel, Google Sheets<br>
-            
-            Machine Learning (Basic): Knowledge of supervised and unsupervised learning techniques<br>
-            
-            Statistical Analysis: Descriptive statistics, hypothesis testing<br>
-            
-            Soft Skills: Problem-solving, attention to detail, communication, teamwork<br>
-            </p>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Get In Touch</h2>
-        <div class="contact-links">
-            <a href="mailto:yottor12@gmail.com"><i class="fas fa-envelope"></i> Email</a>
-            <a href="www.linkedin.com/in/biniyam-fenta-67a792360" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-            <a href="https://github.com/Zeraphael" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-            <a href="https://zeraphael.github.io" target="_blank"><i class="fas fa-globe"></i> Website</a>
-
+        <div class="card-actions">
+          <!-- TODO: replace # with the exact repo link -->
+          <a class="btn small" href="#" target="_blank" rel="noopener">Repo</a>
+          <a class="btn small ghost" href="#" target="_blank" rel="noopener">Live / PDF</a>
         </div>
-    </section>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="card">
+        <div class="card-body">
+          <h3>Nashville Housing — Data Cleaning (SQL)</h3>
+          <p>Performed robust SQL cleaning on the Nashville Housing dataset: standardized formats, deduped, handled nulls, and prepared analytics‑ready tables.</p>
+          <ul class="meta">
+            <li>SQL</li>
+            <li>Joins, Window Functions, CTEs</li>
+          </ul>
+        </div>
+        <div class="card-actions">
+          <a class="btn small" href="#" target="_blank" rel="noopener">Repo</a>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="card">
+        <div class="card-body">
+          <h3>Student Mental Health Analysis</h3>
+          <p>Explored relationships between academic performance and mental health indicators. Built clean visuals and cohort summaries.</p>
+          <ul class="meta">
+            <li>Python, SQL, Power BI</li>
+            <li>EDA, Visualization</li>
+          </ul>
+        </div>
+        <div class="card-actions">
+          <a class="btn small" href="#" target="_blank" rel="noopener">Repo</a>
+          <a class="btn small ghost" href="#" target="_blank" rel="noopener">Dashboard</a>
+        </div>
+      </article>
+
+      <!-- Project 4 -->
+      <article class="card">
+        <div class="card-body">
+          <h3>Top 100 Hospitals in Africa</h3>
+          <p>Compiled and cleaned a dataset of top hospitals across Africa; designed lookups and visuals for quick comparisons.</p>
+          <ul class="meta">
+            <li>Python, Excel</li>
+            <li>Scraping, Cleaning, Viz</li>
+          </ul>
+        </div>
+        <div class="card-actions">
+          <a class="btn small" href="#" target="_blank" rel="noopener">Repo</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ===== Skills ===== -->
+  <section id="skills" class="section container">
+    <div class="section-head">
+      <h2>Skills</h2>
+      <p class="section-sub">What I use to turn raw data into decisions.</p>
+    </div>
+    <div class="skills">
+      <div class="skill-col">
+        <h3>Languages</h3>
+        <ul>
+          <li>Python</li>
+          <li>SQL</li>
+        </ul>
+      </div>
+      <div class="skill-col">
+        <h3>Visualization</h3>
+        <ul>
+          <li>Power BI</li>
+          <li>Tableau</li>
+          <li>Excel</li>
+        </ul>
+      </div>
+      <div class="skill-col">
+        <h3>Data Ops</h3>
+        <ul>
+          <li>Data Cleaning & Prep</li>
+          <li>Web Scraping</li>
+          <li>Dashboard Design</li>
+        </ul>
+      </div>
+      <div class="skill-col">
+        <h3>Domain</h3>
+        <ul>
+          <li>Healthcare / Public Health</li>
+          <li>Business Operations</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section id="about" class="section container">
+    <div class="section-head">
+      <h2>About</h2>
+    </div>
+    <div class="about">
+      <p>
+        I’m an entry‑level Data Analyst with a focus on healthcare and public health datasets. I enjoy cleaning, structuring, and visualizing data so stakeholders can quickly act on it. I’m currently strengthening my portfolio through real‑world projects and open‑source contributions.
+      </p>
+      <p>
+        Education: Saint Paul's Hospital Millennium Medical College. Based in Addis Ababa, Ethiopia. I’m open to freelance, internships, and junior data roles.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact" class="section container">
+    <div class="section-head">
+      <h2>Contact</h2>
+      <p class="section-sub">Let’s build something useful together.</p>
+    </div>
+
+    <div class="contact">
+      <a class="contact-item" href="mailto:binifenta@gmail.com" aria-label="Email">
+        <span class="icon" aria-hidden="true">✉️</span>
+        <span>Email</span>
+      </a>
+      <a class="contact-item" href="https://github.com/Zeraphael" target="_blank" rel="noopener" aria-label="GitHub">
+        <span class="icon" aria-hidden="true">💻</span>
+        <span>GitHub</span>
+      </a>
+      <a class="contact-item" href="https://zeraphael.github.io" target="_blank" rel="noopener" aria-label="Website">
+        <span class="icon" aria-hidden="true">🌐</span>
+        <span>Website</span>
+      </a>
+      <!-- Replace with your Telegram/WhatsApp contact link if desired -->
+      <a class="contact-item" href="#" aria-label="Telegram">
+        <span class="icon" aria-hidden="true">📨</span>
+        <span>Telegram</span>
+      </a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Biniam Fenta — Data Analyst</p>
+      <a href="#" class="back-to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script>
+    // Set current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // Smooth scroll (native CSS handles most; this is a small enhancement for older browsers)
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', (e) => {
+        const id = a.getAttribute('href');
+        if (id.length > 1) {
+          const el = document.querySelector(id);
+          if (el) {
+            e.preventDefault();
+            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+      });
+    });
+  </script>
 </body>
 </html>
-    
